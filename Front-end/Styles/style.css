@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.all{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around; 
+    height: 10vh;
+    width: 100%;
+    border-top: solid;
+    border-bottom: solid 1px #dcdbdb;
+}
+.profil{
+    height: 6vh;
+    width: 6vh;
+    border-radius: 100%;
+    background: #c7c3c3;
+    border: solid 1px whitesmoke;
+}
+
+.mode{
+    height: 6vh;
+    width: 12vh;
+    border-radius: 100vh;
+    background: #c7c3c3;
+    border: solid 1px whitesmoke;
+    cursor: pointer;
+    position: relative;
+}
+.day{
+    height: 5vh;
+    width: 5vh;
+    background: gold;
+    position: absolute;
+    border-radius: 100%;
+    top: 10%;
+    transition: ease-in-out .2s;
+    left: 2%;
+    box-shadow:  1px 2px 4px 1px rgba(0, 0, 0, 0.555);
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5vh;
+    text-align: justify;
+}
+.text .textes{
+    border: solid 1px #dcdbdb;
+    padding: 1vh;
+    margin: 2vh;
+}
+.button{
+    text-align: center; 
+    background: #dcdbdb;
+    position: absolute;
+    bottom: 20%;
+    transform: translate(-50%, -50%);
+    padding: 2vh;
+    border-radius: 4px;
+    left: 50%;
+    width: 20%;
+}
+
+
+/*------------------------------------- nightMOde ------------------------------------*/
+
+.night{
+    background: #a4a4a4;
+    position: absolute;
+    border-radius: 100%;
+    top: 10%;
+    left: 52%;
+    box-shadow:  1px 2px 4px 1px rgba(0, 0, 0, 0.555);
+}
+.bodyBlack{
+    background: #0e0e10c3;
+}
+.modeBlack{
+    background-color: #0e0e10c3;
+    border: #a4a4a4 solid;
+}
+.profilBlack{
+    border: whitesmoke solid;
+    box-shadow:  1px 2px 4px 1px rgba(0, 0, 0, 0.324);
+}
+.navbarBlack{
+    background: #0e0e10c3;
+    border-bottom: #a4a4a4 solid;
+    box-shadow:  1px 2px 4px 1px rgba(0, 0, 0, 0.324);
+}
